@@ -1,19 +1,23 @@
-<!DOCTYPE html>
-<html lang="en-US">
+---
+layout: default
+---
 
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Dr. Chase Bolt</title>
-    <meta name="description" content="">
-    <meta name="author" content="Brian Zelip">
-    <meta name="keywords" content="">
-  </head>
-  
-  <body>
-    <h1>FUCK YOU</h1>
-  </body>
+<div class="home">
 
-</html>
+  <h1 class="page-heading">Posts</h1>
+
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+</div>
