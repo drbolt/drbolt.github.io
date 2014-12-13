@@ -1,7 +1,6 @@
 # Site settings
-title: Dr. Chase Bolt
+title: Chase Bolt
 email: ccbolt@gmail.com
-baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://chasebolt.com" # the base hostname & protocol for your site
 twitter_username: chasebolt
 github_username:  drbolt
