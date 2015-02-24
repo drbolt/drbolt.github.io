@@ -1,0 +1,149 @@
+@charset "UTF-8";
+
+/*------------------------------------*\
+    # Settings    
+\*------------------------------------*/
+@import "_settings.global";
+@import "_settings.colors";
+
+
+/*------------------------------------*\
+    # Tools
+\*------------------------------------*/
+
+
+
+/*------------------------------------*\
+    # Generic
+\*------------------------------------*/
+@import "_generic.normalize";
+@import "_generic.box-sizing";
+
+
+/*------------------------------------*\
+    # Base
+\*------------------------------------*/
+
+html {
+  font-size: 16px;
+}
+
+@media (min-width: 38em) {
+  html {
+    font-size: 20px;
+  }
+}
+
+html, body { height: 100vh; }
+
+body {
+  margin: 0;
+  font: 1rem/1.5 "Merriweather", "Georgia", serif;
+  color: #333;
+}
+
+.page-container {
+  padding-left: 10rem;
+  padding-right: 10rem;
+}
+
+header {
+  max-width: 15rem;
+  float: left;
+}
+
+.fixed-wrapper {
+  position: fixed;
+  height: 100vh;
+  width: 15rem;
+  padding: 1.5rem;
+}
+
+.header-content {
+  display: table-cell;
+  vertical-align: middle;
+  height: 100vh;
+
+}
+
+.content-wrapper {
+  max-width: 36rem;
+  float: right;
+  margin-left: 15rem;
+  padding-left: 1rem;
+  
+}
+
+.avatar {
+  max-width: 100%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  margin-top: -3rem;
+}
+
+
+.h1 { font-size: 2rem; }
+.h2 { font-size: 1.5rem; }
+.h3 { font-size: 1.25rem; }
+.h4 { font-size: 1rem; }
+.h5 { font-size: .875rem; }
+
+
+.inline {
+  display: inline;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.list-reset {
+  list-style-type: none;
+}
+
+.m0 {
+  margin: 0;
+}
+
+.p0 {
+  padding: 0;
+}
+
+.b0 { bottom: 0; }
+
+.py1 { padding: 1rem 0; }
+
+.pt1 { padding-top: 1rem; }
+
+.px1 {padding: 0 1rem; }
+
+.table {
+  display: table;
+  width: 100%;
+}
+
+.table-cell {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.table-fixed { table-layout: fixed; }
+
+.center { text-align: center; }
+
+.black { color: #333; }
+
+
+/*------------------------------------*\
+    # Objects
+\*------------------------------------*/
+
+
+/*------------------------------------*\
+    # Components
+\*------------------------------------*/
+
+
+/*------------------------------------*\
+    # Trumps
+\*------------------------------------*/
