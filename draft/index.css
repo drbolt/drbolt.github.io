@@ -263,3 +263,8 @@ body {
 .facebookblue:hover,
 .twitterblue:hover,
 .instagramtan:hover { color: white;}
+
+.body-text-color { color: #333; }
+
+.no-decoration,
+.no-decoration:hover { text-decoration: none; }
