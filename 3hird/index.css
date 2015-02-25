@@ -35,6 +35,7 @@ body {
   max-width: 70em;
 }
 
+.top-3 { top: 3rem; }
 .top-5 { top: 5rem; }
 .top-10 { top: 10rem; }
 
@@ -216,4 +217,16 @@ body {
 
 .border-box {
   box-sizing: border-box;
+}
+
+.border-1 {
+  border-width: .5rem;
+}
+
+.pl1 {
+  padding-left: .5rem;
+}
+
+.pl2 {
+  padding-left: 1rem;
 }
