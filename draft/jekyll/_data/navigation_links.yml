@@ -1,13 +1,13 @@
 - text: Home
-  URL: index.html
+  URL: /
   additional_style_class:
 
 - text: CV
-  URL: cv.html
+  URL: /cv
   additional_style_class:
 
 - text: Research Interests
-  URL: research.html
+  URL: /research
   additional_style_class:
 
 - text: Research Gate Profile
