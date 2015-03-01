@@ -1,0 +1,19 @@
+- text: Home
+  URL: index.html
+  additional_style_class:
+
+- text: CV
+  URL: cv.html
+  additional_style_class:
+
+- text: Research Interests
+  URL: research.html
+  additional_style_class:
+
+- text: Research Gate Profile
+  URL: http://www.researchgate.net/profile/C_Chase_Bolt
+  additional_style_class: rgategreen
+
+- text: Email
+  URL: mailto:ccbolt@gmail.com
+  additional_style_class:
