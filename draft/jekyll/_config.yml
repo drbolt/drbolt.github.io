@@ -14,4 +14,4 @@ email: ccbolt@gmail.com
 # Build settings
 markdown: kramdown
 permalinks: pretty
-baseurl: http://chasebolt.com/draft/jekyll/
+baseurl: http://chasebolt.com/draft/jekyll
