@@ -43,39 +43,10 @@ body {
 .top-5 { top: 5rem; }
 .top-10 { top: 10rem; }
 
-.media {
-  display: flex;
-  align-items: flex-start;
-}
-
-.media-figure {
-  margin-right: 1rem;
-}
-
-.media-text {
-  flex: 1;
-}
-
-.media--center {
-  align-items: center;
-}
-
-.media--bottom {
-  align-items: flex-end;
-}
-
-
 .lato { font-family: 'Lato'; }
 .merriweather { font-family: 'Merriweather'; }
 
 .thin { font-weight: 300; }
-
-
-
-
-
-
-
 
 /*
  * Basscss Flex Object
