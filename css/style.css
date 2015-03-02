@@ -11,12 +11,6 @@
 
 /* Scaffolding and type
  ================================================== */
-*,
-*:before,
-*:after {
-  box-sizing:border-box;
-}
-
 html {
   font-size: 16px;
 }

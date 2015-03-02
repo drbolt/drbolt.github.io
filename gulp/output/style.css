@@ -11,12 +11,6 @@
 
 /* Scaffolding and type
  ================================================== */
-*,
-*:before,
-*:after {
-  box-sizing:border-box;
-}
-
 html {
   font-size: 16px;
 }
@@ -299,4 +293,12 @@ body {
 
 #research p {
   text-indent: 1rem;
+}
+
+.box-shadow-right:hover {
+  box-shadow: .25rem 0 0 0 #ddd;
+}
+
+.bg-hack-grey:hover {
+  
 }

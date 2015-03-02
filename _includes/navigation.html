@@ -1,6 +1,6 @@
 <ul class="list-reset rounded border merriweather">
             {% for link in site.data.navigation_links %}
-              <li>
+              <li class="bg-hack-grey">
                 <a href="{{ link.URL }}" class="button block button-transparent {{ link.additional_style_class }}">{{ link.text }}</a>
               </li>
             {% endfor %}
