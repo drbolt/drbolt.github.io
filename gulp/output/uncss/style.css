@@ -1,0 +1,131 @@
+@charset "UTF-8";
+
+/**************************************
+ *                                    *
+ *           for the homie            *
+ *            Doctor Bolt             *
+ *                                    *
+ *           chasebolt.com            *
+ *                                    *
+ **************************************/
+
+/* Scaffolding and type
+ ================================================== */
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+@media (min-width: 40em) {
+  html {
+    font-size: 20px;
+  }
+}
+
+body {
+  margin: 0;
+  font: 1rem/1.5 "Merriweather", "Georgia", serif;
+  color: #333;
+}
+
+.container {
+  max-width: 60em;
+}
+
+.merriweather {
+  font-family: 'Merriweather';
+}
+
+/*
+ * Basscss Flex Object
+ */
+
+.flex {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.flex-center {
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.flex-start {
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+.flex-end {
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+}
+
+.flex > div {
+  box-sizing: border-box;
+}
+
+.flex-space-between {
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.pl2 {
+  padding-left: 1rem;
+}
+
+.rg_green:hover {
+  background-color: #8ED425;
+}
+
+.orcid_green:hover {
+  background-color: #a6ce39;
+}
+
+.rg_green:hover,
+.orcid_green:hover {
+  color: white;
+}
+
+.body-text-color {
+  color: #333;
+}
+
+.no-decoration,
+.no-decoration:hover {
+  text-decoration: none;
+}
+
+.lh3 {
+  line-height: 1.75;
+}
+
+.mb40per {
+  margin-bottom: .4rem;
+}
+
+.py30per {
+  padding-top: .3rem;
+  padding-bottom: .3rem;
+}
+
+.disc {
+  list-style-type: disc;
+}
+
+#research p {
+  text-indent: 1rem;
+}

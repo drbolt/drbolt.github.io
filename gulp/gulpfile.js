@@ -1,11 +1,28 @@
 var gulp = require('gulp');
-var auto = require('gulp-autoprefixer')
+var uncss = require('gulp-uncss');
+var autoprefixer = require('gulp-autoprefixer');
 
-gulp.task('default', function() {
+gulp.task('prefix', function() {
   return gulp.src('../css/style.css')
-    .pipe(auto({
+    .pipe(autoprefixer({
       browsers: ['last 5 versions'],
       cascade: true
     }))
-    .pipe(gulp.dest('output'));
+    .pipe(gulp.dest('output/prefixed'));
+});
+
+gulp.task('unBasscss', function() {
+  return gulp.src('../css/basscss.min.css')
+    .pipe(uncss({
+      html: ['../_site/**/*.html']
+    }))
+    .pipe(gulp.dest('output/uncss'));
+});
+
+gulp.task('uncss', function() {
+  return gulp.src('../css/style.css')
+    .pipe(uncss({
+      html: ['../_site/**/*.html']
+    }))
+    .pipe(gulp.dest('output/uncss'));
 });

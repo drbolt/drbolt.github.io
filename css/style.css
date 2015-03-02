@@ -217,6 +217,13 @@ body {
           justify-content: space-around;
 }
 
+
+@media (min-width: 55em) {
+  .md-flex-row { flex-direction: row; }
+}
+
+
+
 .border-box {
   box-sizing: border-box;
 }
