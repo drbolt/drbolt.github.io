@@ -8,8 +8,11 @@
 
           <div class="col-10 px2">
             <h1><a href="/" class="merriweather regular body-text-color no-decoration">{{ site.name }}, {{ site.degree }}</a></h1>
-            <h2 class="h4 merriweather regular">{{ site.description_brief }}</h2>
-            <h2 class="m0 mb40per h4 border-bottom merriweather regular">{{ site.job_title }}, <a href="{{ site.lab_URL }}">{{ site.lab_name }}</a>
+            <h2 class="h4 merriweather regular">
+              <a href="{{ site.lab_URL }}">{{ site.lab_name }}</a>
+            </h2>
+            <h2 class="m0 mb40per h4 border-bottom merriweather regular">
+              <a href="{{ site.institution_URL }}">{{ site.institution_name }}</a>
             </h2>
           </div>
 
