@@ -25,11 +25,6 @@ html {
   }
 }
 
-html,
-body {
-  min-height: 100vh;
-}
-
 body {
   margin: 0;
   font: 1rem/1.5 "Merriweather", "Georgia", serif;
