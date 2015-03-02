@@ -23,7 +23,7 @@ body {
 
 body {
   margin: 0;
-  font: 1rem/1.5 "Meriweather", "Georgia", serif;
+  font: 1rem/1.5 "Merriweather", "Georgia", serif;
   color: #333;
 }
 
@@ -194,6 +194,14 @@ body {
   flex-grow: 1;
 }
 
+.flex-space-between {
+  justify-content: space-between;
+}
+
+.flex-self-end {
+  justify-content: space-around;
+}
+
 .border-box {
   box-sizing: border-box;
 }
@@ -224,18 +232,21 @@ body {
 
 .pb0 { padding-bottom: 0; }
 
-.rgategreen:hover { background-color: #89B632; }
+.rg_green:hover { background-color: #8ED425; }
 
-.facebookblue:hover { background-color: #3A5795; }
+.orcid_green:hover { background-color: #a6ce39; }
 
-.twitterblue:hover { background-color: #55ACEE; }
+.facebook_blue:hover { background-color: #3A5795; }
 
-.instagramtan:hover { background-color: rgb(168,126,102); }
+.twitter_blue:hover { background-color: #55ACEE; }
 
-.rgategreen:hover,
-.facebookblue:hover,
-.twitterblue:hover,
-.instagramtan:hover { color: white;}
+.instagram_tan:hover { background-color: rgb(168,126,102); }
+
+.rg_green:hover,
+.orcid_green:hover,
+.facebook_blue:hover,
+.twitter_blue:hover,
+.instagram_tan:hover { color: white;}
 
 .body-text-color { color: #333; }
 
@@ -246,8 +257,24 @@ body {
 .lh1 { line-height: 1; }
 .lh2 { line-height: 1.5; }
 
-.mbQuarter { margin-bottom: .4rem; }
+.mb40per { margin-bottom: .4rem; }
+
+.py30per {
+  padding-top: .3rem;
+  padding-bottom: .3rem;
+}
+
 
 #publications li:not(:last-child) {
   border-bottom: 1px solid #ddd;
+}
+
+.disc { list-style-type: disc; }
+
+.indent2 {
+  text-indent: 1rem;
+}
+
+#research p {
+  text-indent: 1rem;
 }

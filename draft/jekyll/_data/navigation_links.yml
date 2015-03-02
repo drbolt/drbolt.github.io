@@ -10,9 +10,13 @@
   URL: /research
   additional_style_class:
 
+- text: ORCID ID
+  URL: http://orcid.org/0000-0002-3544-3552
+  additional_style_class: orcid_green
+
 - text: Research Gate Profile
   URL: http://www.researchgate.net/profile/C_Chase_Bolt
-  additional_style_class: rgategreen
+  additional_style_class: rg_green
 
 - text: Email
   URL: mailto:ccbolt@gmail.com

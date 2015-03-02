@@ -1,5 +1,5 @@
 ---
-layout: other
+layout: cv
 title: Curriculum vitae
 ---
 **CV motherfucker!!**
