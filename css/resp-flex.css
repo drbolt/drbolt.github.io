@@ -1,0 +1,48 @@
+/*
+  The main viewport layout logic:
+  
+    1. html font changes (75em = 1200px @ html {font-size: 16px;})
+
+      html { font-size: 16px; }
+
+        @media (min-width: 75em) {
+          html { font-size: 20px; }
+        }
+
+    2. container size changes at 60em (960px at html {font-size: 16px;})
+
+      .container { max-width: 60em; }
+      
+        - note: because there is padding on the container element,
+          below the min-height of 60em there will still be padding
+          around the container.
+
+
+*/
+
+
+/*@media (min-width: 69em) {/*68.75em = 1101px and up; 68.75rem = px
+  .md-flex-row { flex-direction: row; }
+}*/
+
+@media (min-width: 60rem) {/*60em = 960px and up; 60rem = 960px*/
+  .md-flex-row { flex-direction: row; }
+}
+
+@media (min-width: 60em) {
+  .md-flex-end { align-items: flex-end; }
+}
+
+
+@media (min-width: 60em) {
+  .md-col-2 { width: 16.666666666666664%; }
+}
+
+@media (min-width: 60em) {
+  .md-col-10 { width: 83.33333333333334%; }
+}
+
+
+
+
+

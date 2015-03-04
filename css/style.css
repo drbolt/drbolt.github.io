@@ -19,7 +19,7 @@ html {
   font-size: 16px;
 }
 
-@media (min-width: 40em) {
+@media (min-width: 75em) {
   html {
     font-size: 20px;
   }
@@ -31,14 +31,6 @@ body {
   color: #333;
 }
 
-.tree {
-  bottom: 0;
-  right: 0;
-  position: fixed;
-  width: 5%;
-}
-
-
 .container {
   max-width: 60em;
 }
@@ -49,6 +41,11 @@ body {
 
 .lato { font-family: 'Lato'; }
 .merriweather { font-family: 'Merriweather'; }
+.sans-serif { font-family: sans-serif; }
+.avenir { font-family: Avenir; }
+.open-sans { font-family: "Open Sans"; }
+.pt-mono { font-family: "PT Mono"; }
+
 
 .thin { font-weight: 300; }
 
