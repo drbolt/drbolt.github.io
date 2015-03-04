@@ -156,16 +156,6 @@ body {
   .sm-flex-basis-third { flex-basis: 33.33333333333333%; }
 }
 
-
-
-
-
-.flex-nav-item {
-  flex-grow: 1;
-  flex-shrink: 0;
-  flex-basis: 33.33333333333333%;
-}
-
 @media (min-width: 60em) {
   .md-full-width { width: 100%; }
 }

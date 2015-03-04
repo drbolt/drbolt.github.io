@@ -9,15 +9,17 @@
 
     <section class="mt2">
       <div class="container px2">
-        <div class="clearfix flex flex-start mxn2">
+        <div class="clearfix flex flex-start flex-column md-flex-row mxn2">
 
-          <nav class="col-2 px2">
+          <nav class="col-12 mx-auto px2 md-col-2 md-mr0 md-ml0">
             {% include navigation.html %}
           </nav>
 
-          <main class="col-10 px2">
-            <h2 class="m0 py1 px2 merriweather bg-silver rounded">Publications</h2>
+          <main class="col-12 md-col-10 px2">
+            <h2 class="m0 py1 px2 bg-silver rounded">Publications</h2>
+
             {% include publications.html %}
+
           </main>
 
         </div>
