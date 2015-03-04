@@ -16,4 +16,4 @@ email: ccbolt@gmail.com
 # Build settings
 markdown: kramdown
 permalinks: pretty
-exclude: [archive_of_web_work/, gulp/, resp-flex/]
+exclude: [archive_of_web_work/, gulp/]
