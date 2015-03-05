@@ -2,12 +2,12 @@
   URL: /
   additional_style_class:
 
-- text: CV
-  URL: /cv
-  additional_style_class:
-
 - text: Research Interests
   URL: /research
+  additional_style_class:
+
+- text: CV
+  URL: /cv
   additional_style_class:
 
 - text: ORCID ID
