@@ -1,17 +1,19 @@
 <header class="mt3">
       <div class="container px2">
-        <div class="clearfix flex flex-end mxn2">
+        <div class="clearfix flex flex-column flex-center md-flex-row md-flex-end mxn2">
 
-          <div class="col-2 px2">
-            <a href="/"><img src="/img/{{ site.self_pic_title }}" class="circle" alt="Dr. Chase Bolt"></a>
+          <div class="px2 flex justify-center col-12 md-block md-col-2">
+            <a href="/"><img src="/img/{{ site.self_pic_title }}" class="circle" alt="{{ site.name }}"></a>
           </div>
 
-          <div class="col-10 px2">
-            <h1><a href="/" class="merriweather regular body-text-color no-decoration">{{ site.name }}, {{ site.degree }}</a></h1>
-            <h2 class="h4 merriweather regular">
+          <div class="px2 col-12 md-col-10 center md-left-align">
+            <h1 class="mt1">
+              <a href="/" class="regular body-text-color no-decoration">{{ site.name }}, {{ site.degree }}</a>
+            </h1>
+            <h2 class="h4 regular">
               <a href="{{ site.lab_URL }}">{{ site.lab_name }}</a>
             </h2>
-            <h2 class="m0 mb40per h4 border-bottom merriweather regular">
+            <h2 class="m0 pb2 md-mb40per md-pb0 h4 border-bottom regular">
               <a href="{{ site.institution_URL }}">{{ site.institution_name }}</a>
             </h2>
           </div>

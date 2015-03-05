@@ -8,10 +8,10 @@ var webserver = require('gulp-webserver');
 gulp.task('css', function() {
   gulp.src('./src/css/base.css')
     .pipe(basswork())
-    .pipe(gulp.dest('./css'))
+    .pipe(gulp.dest('../css'))
     .pipe(minifyCss())
     .pipe(rename({ extname: '.min.css' }))
-    .pipe(gulp.dest('./css'));
+    .pipe(gulp.dest('../css'));
 });
 
 gulp.task('serve', function() {
