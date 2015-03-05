@@ -1,0 +1,624 @@
+/*
+ * Basscss Base
+ *
+ * Remove or comment out unneeded modules and import your own files.
+ * Adjust global media queries and variables below.
+ *
+ */
+
+/* Basscss Modules */
+
+body {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* Basscss Base Forms */
+
+/* Basscss Base Buttons */
+
+.button {
+  font-size: inherit;
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  box-sizing: border-box;
+  line-height: 1.125rem;
+  padding: .5rem 1rem;
+  margin: 0;
+  height: auto;
+  border: 1px solid transparent;
+  vertical-align: middle;
+  -webkit-appearance: none;
+}
+
+::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+.button:hover {
+  text-decoration: none;
+}
+
+/* Basscss Base Tables */
+
+/* Basscss Base Typography */
+
+body {
+  font-family: "Merriweather", "Georgia", serif;
+  line-height: 1.5;
+  font-size: 100%;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Merriweather", "Georgia", serif;
+  font-weight: bold;
+  line-height: 1.25;
+  margin-top: 1em;
+  margin-bottom: .5em;
+}
+
+p,
+ul {
+  font-size: 1rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+ul {
+  padding-left: 2rem;
+}
+
+hr {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 1.25rem;
+}
+
+h4,
+.h4 {
+  font-size: 1rem;
+}
+
+.h5 {
+  font-size: .875rem;
+}
+
+.h6 {
+  font-size: .75rem;
+}
+
+.list-reset {
+  list-style: none;
+  padding-left: 0;
+}
+
+/* Basscss Utility Layout */
+
+.block {
+  display: block;
+}
+
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+/* Basscss Utility Typography */
+
+.regular {
+  font-weight: normal;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.center {
+  text-align: center;
+}
+
+/* Basscss Utility White Space */
+
+.m0 {
+  margin: 0;
+}
+
+.mt0 {
+  margin-top: 0;
+}
+
+.mb0 {
+  margin-bottom: 0;
+}
+
+.mt1 {
+  margin-top: .5rem;
+}
+
+.mb1 {
+  margin-bottom: .5rem;
+}
+
+.ml1 {
+  margin-left: .5rem;
+}
+
+.mt2 {
+  margin-top: 1rem;
+}
+
+.mb2 {
+  margin-bottom: 1rem;
+}
+
+.mt3 {
+  margin-top: 2rem;
+}
+
+.mb3 {
+  margin-bottom: 2rem;
+}
+
+.mxn2 {
+  margin-left: -1rem;
+  margin-right: -1rem;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.py1 {
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+}
+
+.p2 {
+  padding: 1rem;
+}
+
+.px2 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+/* Basscss Utility Responsive States */
+
+@media (min-width: 60em) {
+  .md-hide {
+    display: none !important;
+  }
+}
+
+/* Basscss Positions */
+
+/* Basscss UI Utility Button Sizes */
+
+.button-small {
+  padding: .25rem .5rem;
+}
+
+/* Basscss Grid */
+
+.container {
+  max-width: 60em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.col-12 {
+  width: 100%;
+}
+
+@media (min-width: 60em) {
+  .md-col-2 {
+    width: 16.666666666666664%;
+  }
+
+  .md-col-10 {
+    width: 83.33333333333334%;
+  }
+}
+
+/*
+ * Basscss Flex Object
+ */
+
+.flex {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.flex-column {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.flex-wrap {
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.flex-center {
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.flex-start {
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+.flex > div {
+  box-sizing: border-box;
+}
+
+/* Basscss Color Base */
+
+/*
+
+   COLOR VARIABLES
+
+   - Cool
+   - Warm
+   - Gray Scale
+
+*/
+
+:root {
+  /* Cool */
+  /* Warm */
+  /* Gray scale */
+}
+
+body {
+  color: #222;
+  background-color: white;
+}
+
+a {
+  color: #0074d9;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+hr {
+  border: 0;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: rgba(0, 0, 0, .125);
+}
+
+.button {
+  color: white;
+  background-color: #0074d9;
+  border-radius: 3px;
+  -webkit-transition-duration: .05s;
+  transition-duration: .05s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+  -webkit-transition-property: box-shadow, background-color;
+  transition-property: box-shadow, background-color;
+}
+
+.button:hover {
+  box-shadow: inset 0 0 0 20rem rgba(0, 0, 0, .0625);
+}
+
+.button:focus {
+  outline: none;
+  border-color: rgba(0, 0, 0, .125);
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, .25);
+}
+
+.button:active {
+  box-shadow: inset 0 0 0 20rem rgba(0, 0, 0, .125),
+    inset 0 3px 4px 0 rgba(0, 0, 0, .25),
+    0 0 1px rgba(0, 0, 0, .125);
+}
+
+.button:disabled {
+  opacity: .5;
+}
+
+/* Basscss Color Forms */
+
+/* Basscss Color Forms Dark */
+
+.field-dark::-moz-placeholder {
+  color: rgba(255, 255, 255, .75);
+}
+
+.field-dark:-ms-input-placeholder {
+  color: rgba(255, 255, 255, .75);
+}
+
+.field-dark::placeholder {
+  color: rgba(255, 255, 255, .75);
+}
+
+/* Basscss Input Range */
+
+.range-light::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: .5rem;
+  height: 1.25rem;
+  border-radius: 3px;
+  background-color: currentcolor;
+  cursor: pointer;
+  margin-top: -0.5rem;
+}
+
+.range-light::-moz-range-thumb {
+  width: .5rem;
+  height: 1.25rem;
+  border-radius: 3px;
+  border-color: transparent;
+  border-width: 0;
+  background-color: currentcolor;
+  cursor: pointer;
+}
+
+.range-light::-webkit-slider-runnable-track {
+  height: 0.25rem;
+  cursor: pointer;
+  border-radius: 3px;
+  background-color: rgba(0, 0, 0, .25);
+}
+
+.range-light::-moz-range-track {
+  height: 0.25rem;
+  cursor: pointer;
+  border-radius: 3px;
+  background-color: rgba(0, 0, 0, .25);
+}
+
+.range-light:focus::-webkit-slider-thumb {
+  outline: none;
+  border: 0;
+  box-shadow: 0 0 1px 2px currentcolor;
+}
+
+.range-light:focus::-moz-range-thumb {
+  outline: none;
+  border: 0;
+  box-shadow: 0 0 1px 2px currentcolor;
+}
+
+/* Basscss Color Tables */
+
+/* Basscss Button Outline */
+
+/* Basscss Button Transparent */
+
+.button-transparent {
+  position: relative;
+  z-index: 2;
+  color: inherit;
+  background-color: transparent;
+  border-radius: 0;
+  border: 1px solid transparent;
+  -webkit-transition-duration: .1s;
+  transition-duration: .1s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+  -webkit-transition-property: box-shadow;
+  transition-property: box-shadow;
+}
+
+.button-transparent:before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  z-index: -1;
+  top: -1px;
+  left: -1px;
+  border: 1px solid transparent;
+  background-color: currentcolor;
+  -webkit-transition-duration: .1s;
+  transition-duration: .1s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  opacity: 0;
+}
+
+.button-transparent:hover {
+  box-shadow: none;
+}
+
+.button-transparent:hover:before {
+  opacity: .0625;
+  opacity: .09375;
+}
+
+.button-transparent:focus {
+  outline: none;
+  border-color: transparent;
+  box-shadow: 0 0 3px;
+}
+
+.button-transparent:active:before {
+  opacity: .0625;
+}
+
+.button-transparent:disabled {
+  opacity: .5;
+}
+
+/* Basscss Background Images */
+
+/* Basscss Color Borders */
+
+.border-bottom {
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: rgba(0, 0, 0, .125);
+}
+
+.rounded {
+  border-radius: 3px;
+}
+
+.circle {
+  border-radius: 50%;
+}
+
+/* Basscss Colors */
+
+/* Color */
+
+/* Background Color */
+
+.bg-silver {
+  background-color: #ddd;
+}
+
+/* Border Color */
+
+/* Opacity */
+
+/*
+
+   COLOR VARIABLES
+
+   - Cool
+   - Warm
+   - Gray Scale
+
+*/
+
+:root {
+  /* Cool */
+  /* Warm */
+  /* Gray scale */
+}
+
+/* Basscss Optional Modules */
+
+/* Basscss Responsive White Space */
+
+@media (min-width: 60em) {
+  .md-mt0 {
+    margin-top: 0;
+  }
+
+  .md-mr0 {
+    margin-right: 0;
+  }
+
+  .md-ml0 {
+    margin-left: 0;
+  }
+}
+
+/* Basscss Utility Headings */
+
+/* Basscss UI Utility Groups */
+
+/* Basscss Table Object */
+
+/* Basscss Color Buttons */
+
+/* Basscss Button Blue */
+
+/* Basscss Button Blue Outline */
+
+/* Basscss Button Red */
+
+/* Basscss Button Light Gray */
+
+.button-light-gray:is-active {
+  box-shadow: inset 0 0 0 32px rgba(0, 0, 0, .125), inset 0 2px 3px 0 rgba(0, 0, 0, .25);
+}
+
+/* Basscss Button Nav Light */
+
+/* Basscss Button Nav Dark */
+
+/* Basscss Button Blue Outline */
+
+/* Basscss Button Gray */
+
+.button-gray:is-active {
+  box-shadow: inset 0 0 0 32px rgba(0, 0, 0, .125), inset 0 2px 3px 0 rgba(0, 0, 0, .25);
+}
+
+/* Basscss Button Light Gray */
+
+.button-light-gray:is-active {
+  box-shadow: inset 0 0 0 32px rgba(0, 0, 0, .125), inset 0 2px 3px 0 rgba(0, 0, 0, .25);
+}
+
+/* Basscss Button Nav Light */
+
+/* Basscss Button Nav Dark */
+
+/* Basscss Button Nav Tab */
+
+/* Basscss Highlight */
+
+:root {
+  /* Mapped colors */
+}
+
+/*@import 'basscss-defaults';*/
+
+/* Example custom file import */
+
+/*@import './color/borders';*/
+
+/* Custom media queries */
+
+/* I don't plan on using the sm- prefix */
+
+/* I don't plan on using the lg- prefix except on html font-size */
+
+/* Variables */
+
+:root {
+  /* Grid container max-width */
+  /* Colors */
+}
