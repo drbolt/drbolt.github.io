@@ -83,6 +83,11 @@ body {
 .width150 { width: 150px; }
 .width200 { width: 200px; }
 
+@media (min-width: 60em) {
+  .md-show { display: block; }
+}
+
+
 @media (min-width: 60rem) {/*60em = 960px and up; 60rem = 960px*/
   .md-flex-row { -webkit-box-orient: horizontal; -webkit-box-direction: normal; -webkit-flex-direction: row; -ms-flex-direction: row; flex-direction: row; }
 }
@@ -254,4 +259,8 @@ body {
 
 #research p {
   text-indent: 1rem;
+}
+
+@media (max-width: 44em) {
+  .hide-on-small { display: none; }
 }
