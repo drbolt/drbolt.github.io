@@ -1,14 +1,10 @@
 # drbolt.github.io
 
-Chase Bolt's homepage
+[Chase Bolt's homepage](http://chasebolt.com)
 
-[chasebolt.com](http://chasebolt.com)
+Hosted on [GitHub Pages](https://pages.github.com), built with [Jekyll](http://jekyllrb.com) & [Basscss](http://basscss.com).
 
-Hosted on GitHub Pages
-
-Built with Jekyll & Basscss
-
-## For local development
+## Local development
 
 Run
 
