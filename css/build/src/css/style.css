@@ -219,6 +219,8 @@ body {
 
 .rg_green:hover { background-color: #8ED425; }
 
+.rg_teal:hover { background-color: rgb(38,202,168); }
+
 .orcid_green:hover { background-color: #a6ce39; }
 
 .facebook_blue:hover { background-color: #3A5795; }
@@ -228,6 +230,7 @@ body {
 .instagram_tan:hover { background-color: rgb(168,126,102); }
 
 .rg_green:hover,
+.rg_teal:hover,
 .orcid_green:hover,
 .facebook_blue:hover,
 .twitter_blue:hover,

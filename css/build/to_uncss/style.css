@@ -342,6 +342,10 @@ body {
   background-color: #8ED425;
 }
 
+.rg_teal:hover {
+  background-color: rgb(38,202,168);
+}
+
 .orcid_green:hover {
   background-color: #a6ce39;
 }
@@ -359,6 +363,7 @@ body {
 }
 
 .rg_green:hover,
+.rg_teal,
 .orcid_green:hover,
 .facebook_blue:hover,
 .twitter_blue:hover,

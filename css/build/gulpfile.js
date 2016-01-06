@@ -7,21 +7,22 @@ var webserver     = require('gulp-webserver');
 var minifyCss     = require('gulp-minify-css');
 var autoprefixer  = require('gulp-autoprefixer');
 
-gulp.task('buildBasscss', function() {
+gulp.task('buildCSS', function() {
   gulp.src('./src/css/*.css')
     .pipe(basswork())
-    .pipe(gulp.dest('./to_uncss/'));
-});
-
-gulp.task('uncss', function() {
-  return gulp.src('./to_uncss/*.css')
-    .pipe(uncss({
-      html: ['../../_site/**/*.html']
-    }))
     .pipe(gulp.dest('./to_autoprefix/'));
 });
 
-gulp.task('prefix', ['uncss'], function() {
+//gulp.task('uncss', function() {
+//  return gulp.src('./to_uncss/*.css')
+//    .pipe(uncss({
+//      html: ['../../_site/**/*.html']
+//    }))
+//    .pipe(gulp.dest('./to_autoprefix/'));
+//});
+
+
+gulp.task('prefix', function() {
   return gulp.src('./to_autoprefix/*.css')
     .pipe(autoprefixer({
       browsers: ['last 5 versions'],
@@ -38,7 +39,7 @@ gulp.task('serve', function() {
     .pipe(webserver({}));
 });
 
-gulp.task('default', ['buildBasscss', 'uncss', 'prefix'], function() {
-  gulp.watch(['./src/**/*'], ['buildBasscss', 'uncss', 'prefix']);
-  gulp.watch(['../../*.html', '../../research/*', '../../cv/*', '../../_layouts/*', '../../_includes/*'], ['uncss', 'prefix']);
+gulp.task('default', ['buildCSS', 'prefix'], function() {
+  gulp.watch(['./src/**/*'], ['buildCSS', 'prefix']);
+  gulp.watch(['../../*.html', '../../research/*', '../../cv/*', '../../_layouts/*', '../../_includes/*'], ['prefix']);
 });
